@@ -1,0 +1,71 @@
+header{
+
+    height: 100vh;
+    overflow: hidden;
+    padding-top:7rem ;
+    display: flex;
+}
+
+.header__container{
+    text-align: center;
+    height: 100%;
+    position: relative;
+
+}
+.cta{
+
+    margin: 10px;
+    
+}
+.hearder__social{
+    position: absolute;
+    top: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.scrool__down{
+    position: absolute;
+}
+.btn{
+    margin: 20px;
+}
+.img{
+
+    background:linear-gradient(var(--primary-color),transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    border-radius: 12rem ;
+    left: calc(50% - 11rem);
+    padding: 10px ;
+    box-shadow: 2px 2px 1px rgba(255, 255, 255, 0.144);
+    /* margin-top: 4rem; */
+
+    
+}
+.scrool__down{
+
+    position: absolute;
+    top: 80%;
+    transform: rotate(90deg);
+    right: -2.3rem;
+    
+}
+/* ############################ Mobial responive ######################### */
+
+@media only screen and (max-width:600px){
+
+    header{
+        height: 100vh;
+    }
+    /* .hearder__social  */
+    
+    .scrool__down{
+        display: none;
+    }
+    .hearder__social{
+        display: none;
+    }
+}

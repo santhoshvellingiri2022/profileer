@@ -1,0 +1,81 @@
+.about__img{
+    border-radius: 20px;
+    overflow: hidden;
+    width: 300px;
+    background:linear-gradient(yellow,transparent);
+    transform: rotate(-10deg);
+    transition: 300ms all ease;
+}
+.about__img:hover{
+    transition: 300ms all ease;
+    transform: rotate(0deg);
+
+}
+
+.main_about{
+
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    padding: 1rem;
+}
+.about_awards{
+
+    /* background-color: red; */
+    display: flex;
+    width: 70%;
+    
+
+}
+.row_award{
+
+    
+    
+    color: Black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.award_card{
+    width: 150px;
+    aspect-ratio: 1/1;
+    border-radius: 20px;
+    background:linear-gradient(125deg ,orange 70%,rgba(241, 230, 113, 0.619));
+    box-shadow: 5px 5px 12px black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    transition: all ease 1500ms;
+}
+.award_card:hover{
+
+    transform: rotateY(360deg);
+    box-shadow: 0px 0px 0px black;
+
+}
+.btn_talk{
+
+    background-color: orange;
+   width: 200px;
+   height: max-content;
+   padding: 10px;
+   color: black;
+   border-radius: 10px 0px 0px 10px;
+   position: absolute;
+   left:calc(100% - 100px );
+   padding-right: 70px;
+
+
+}
+.btn_talk:hover{
+
+    left:calc(90% - 100px );
+}

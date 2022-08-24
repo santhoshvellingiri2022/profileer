@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.26980084.css",
+    "main.js": "/react-gh-pages/static/js/main.36d0e8ce.js",
+    "static/media/deadpool.jpg": "/react-gh-pages/static/media/deadpool.9d9416b400d360cb0d31.jpg",
+    "static/media/me.png": "/react-gh-pages/static/media/me.5ab3be9d86b4eaa90630.png",
+    "static/media/cv.pdf": "/react-gh-pages/static/media/cv.acf5ec1290c11b16fce8.pdf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.26980084.css.map": "/react-gh-pages/static/css/main.26980084.css.map",
+    "main.36d0e8ce.js.map": "/react-gh-pages/static/js/main.36d0e8ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26980084.css",
+    "static/js/main.36d0e8ce.js"
+  ]
+}

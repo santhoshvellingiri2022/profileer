@@ -5,6 +5,10 @@ header{
     padding-top:7rem ;
     display: flex;
 }
+.hearder__social{
+
+    margin-left: 100px;
+}
 
 .header__container{
     text-align: center;
@@ -27,6 +31,7 @@ header{
 }
 .scrool__down{
     position: absolute;
+    margin-right: 100px;
 }
 .btn{
     margin: 20px;
@@ -59,6 +64,10 @@ header{
 
     header{
         height: 100vh;
+        /* background-color: green; */
+        width: 140%;
+        
+        justify-content: center;
     }
     /* .hearder__social  */
     

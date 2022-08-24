@@ -8,8 +8,8 @@ import {FaAward} from 'react-icons/fa'
 
 const About = () => {
   return (
-    <section id="about">
-      <h1>About</h1>
+    <section id="about" className='container'>
+      <h1 >About</h1>
         <div className='main_about'>
             
             <div className='about__img'>
@@ -17,28 +17,29 @@ const About = () => {
             </div>
             <div className="about_awards">
               <div className='row_award'>
-                <div className='award_card'>
+                <article className='award_card'>
                   <FaAward/>
-                  <h5>Expireance</h5>
-                  <small>1+Month</small>
+                  <h3>Expireance</h3>
+                  <h5>1+Month</h5>
 
-                </div>
-                <div className='award_card'>
+                </article>
+                <article className='award_card'>
                   <FiUser/>
-                  <h5>Clients</h5>
-                  <small> 1 and only</small>
+                  <h3>Clients</h3>
+                  <h5> 1 and only</h5>
 
-                </div>
-                <div className='award_card'>
+                </article>
+                <article className='award_card'>
                   <VscFolderLibrary/>
-                  <h5>Projects</h5>
-                  <small>10+</small>
+                  <h3>Projects</h3>
+                  <h5>10+</h5>
 
-                </div>
+                </article>
                 
 
               </div>
               <a href='#contact' className='btn_talk'>Lets Talk</a>
+              <p>I find it a challenge to cooperate in a society where it's considered moral to critique a résumé yet immoral to critique morality</p>
               
             </div>
         </div>

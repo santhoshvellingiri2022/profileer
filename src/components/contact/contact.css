@@ -1,0 +1,91 @@
+#h5tag{
+    color: white;
+}
+#contact{
+    height: 100vh;
+}
+.contact_title{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact__container{
+    height: 60%;
+   width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contact__options{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 30px;
+}
+.contact__option{
+
+    background-color:var(--primary-color-bg);
+    box-shadow: -1px -1px 6px white,
+    5px 5px 5px black;
+    padding: 20px;
+    border-radius: 20px;
+    transition: all ease 300ms;
+}
+.contact__option:hover{
+    transition: all ease 300ms;
+    box-shadow: -1px -1px 6px black,
+    5px 5px 5px red;
+}
+form{
+ 
+    width: 58%;
+    height: 100%;
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+input,textarea{
+
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: transparent;
+    border: 2px solid red;
+    resize: none;
+    color: white;
+    position: relative;
+    transition: ease all 300ms;
+}
+textarea{
+
+    padding: 40px;
+}
+input:hover,textarea:hover{
+    border:1px solid white;
+    transition: ease all 300ms;
+}
+.btn2{
+
+    width: 100%;
+    text-align: right;
+}
+/* =================== MediaQuary (tab) =============== */
+@media screen and (max-width:600px){
+    #contact{
+
+        height: max-content;
+        padding: 1.5rem 1rem;
+    }
+    .contact__container{
+
+        flex-direction: column;
+        max-height: max-content;
+        gap: 1.7rem;
+    }
+    
+}

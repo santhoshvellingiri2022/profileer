@@ -43,8 +43,8 @@ body{
 
 .container{
 
-    width:var(--container-width-lg);
-    margin:  0 auto;
+    width: 100vw;
+    
 }
 
 h1,h2,h3,h4,h5{
@@ -58,7 +58,7 @@ section >h2,section > h5{
 }
 
 section{
-    height: 100vh;
+    
 }
 
 .text-light{
@@ -102,3 +102,13 @@ img{
 
 /* ##################################### MEDIA QUARY ################################*/
 
+@media only screen and (max-width:600px){
+
+    .container{
+        min-height: 100vh;
+        max-height: max-content;
+        /* background-color: green; */
+        width: 140%;
+        
+        justify-content: center;
+    }}

@@ -1,0 +1,97 @@
+.experience__container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin-top: 2rem;
+}
+.tick{
+    color: teal;
+}
+
+.experience__container > div{
+    margin-top: 1rem;
+    background-color: rgba(255, 0, 0, 0.4);
+    padding: 2.4rem 5rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: all ease 300ms;
+}
+#fth{
+    color: white;
+}
+
+.experience__container > div:hover{
+
+    background-color: rgba(255, 0, 0, 0.564);
+    transition: all ease 300ms;
+    cursor: default;
+}
+.experience__container > div h3{
+
+    text-align: center;
+    text-decoration: double;
+
+}
+
+.experience__container > div h3::after{
+    content: "";
+    display: flex;
+    width:0%;
+    margin: auto;
+    height: 1px;
+    background-color: white;
+    margin-top: 2%;
+}
+
+.experience__container > div:hover h3::after{
+    width: 50%;
+    transition: width 300ms ease-in-out;
+}
+
+
+.experiance__content{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.experiance__details{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+/* =================== MediaQuary (tab) =============== */
+@media screen and (max-width:1024px){
+
+    #experience{
+
+        /* background-color: green; */
+        height: max-content;
+    }
+
+    .experience__container{
+
+        grid-template-columns: 1fr;
+    }
+    .experience__container > div{
+
+    }
+}
+/* =================== MediaQuary (tab) =============== */
+@media screen and (max-width:1024px){
+ .experiance__content > div{
+
+    width: 95%;
+ }
+
+}

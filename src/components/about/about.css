@@ -25,7 +25,10 @@ section{
 
     /* background-color: red; */
     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     width: 70%;
+    align-content: space-between;
     
 
 }
@@ -61,15 +64,20 @@ section{
     box-shadow: 0px 0px 0px black;
 
 }
+section h1{
+    text-align: center;
+    color: orange;
+}
 .btn_talk{
 
-    background-color: orange;
+   background-color: orange;
    width: 200px;
    height: max-content;
    padding: 10px;
    color: black;
    border-radius: 10px 0px 0px 10px;
    position: absolute;
+   bottom: -20%;
    left:calc(100% - 100px );
    padding-right: 70px;
 
@@ -79,3 +87,35 @@ section{
 
     left:calc(90% - 100px );
 }
+
+/* ###############################   MobileResponisive   ######################### */
+
+@media only screen and (max-width:600px){
+    
+.main_about{
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn_talk{
+    display: none;
+}
+section{
+    padding: 1rem;
+    
+}
+.about__img{
+    width: 150px;
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+
+}
+
+

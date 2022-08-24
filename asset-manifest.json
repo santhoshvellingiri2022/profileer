@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/profileer/static/css/main.26980084.css",
+    "main.css": "/profileer/static/css/main.2f129e7c.css",
     "main.js": "/profileer/static/js/main.2900be5a.js",
     "static/media/deadpool.jpg": "/profileer/static/media/deadpool.9d9416b400d360cb0d31.jpg",
     "static/media/me.png": "/profileer/static/media/me.5ab3be9d86b4eaa90630.png",
     "static/media/cv.pdf": "/profileer/static/media/cv.acf5ec1290c11b16fce8.pdf",
     "index.html": "/profileer/index.html",
-    "main.26980084.css.map": "/profileer/static/css/main.26980084.css.map",
+    "main.2f129e7c.css.map": "/profileer/static/css/main.2f129e7c.css.map",
     "main.2900be5a.js.map": "/profileer/static/js/main.2900be5a.js.map"
   },
   "entrypoints": [
-    "static/css/main.26980084.css",
+    "static/css/main.2f129e7c.css",
     "static/js/main.2900be5a.js"
   ]
 }
